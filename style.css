@@ -156,3 +156,15 @@ main {
     border-radius: 10px; /* Bordes redondeados del botón */
     width: 100%; /* Ancho completo */
 }
+
+/* REDES SOCIALES STYLE */
+
+
+.redes-container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: auto; /* Centra el contenedor */
+    padding: 20px;
+    background-color: #fff; /* Color de fondo */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Sombra */
+}
