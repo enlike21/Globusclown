@@ -74,8 +74,8 @@ main {
 }
 
 @media (max-width: 576px) {
-    .carousel-container {
-        max-width: 80%;
+    .carousel-inner .carousel-item img {
+        max-width: 100%;
         /* El carrusel ocupa el ancho completo en dispositivos pequeños */
     }
 }
