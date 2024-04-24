@@ -78,6 +78,9 @@ main {
         max-width: 100%;
         /* El carrusel ocupa el ancho completo en dispositivos pequeños */
     }
+    #quienessomos{
+        width: 95%;
+    }
 }
 
 .card-body .titulo_espectaculo {
@@ -100,4 +103,56 @@ main {
 
 .celda:hover{
     transform: scale(1.01);
+}
+
+/* QUIENES SOMOS STYLE */
+
+.section {
+    padding: 50px 0;
+}
+
+.section-content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.achievement {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.achievement-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.achievement-description {
+    font-size: 1.1rem;
+}
+
+/* Contacto Style */
+
+.formulario-container {
+    margin: 5rem;
+    background-color: #fff; /* Color de fondo del contenedor */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.349); /* Sombra */
+}
+
+.formulario-container h2 {
+    text-align: center; /* Centrar el título */
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 10px; /* Bordes redondeados de los campos de entrada */
+}
+
+.btn-primary {
+    border-radius: 10px; /* Bordes redondeados del botón */
+    width: 100%; /* Ancho completo */
 }
