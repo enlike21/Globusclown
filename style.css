@@ -1,0 +1,108 @@
+.btn-instagram {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+    border-color: transparent;
+    color: white;
+}
+
+.btn-instagram:hover {
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 3px 3px 10px #E1306C;
+}
+
+#facebook:hover {
+    background-color: var(--color-azul);
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 3px 3px 10px var(--color-azul);
+}
+
+:root {
+    --color-azul: #088ed8;
+    --color-blanco: #eef8f7;
+    --color-negro: #080809;
+}
+
+/* Aumentar el tamaño de los nav-links */
+.navbar-nav .nav-link {
+    padding: 1rem;
+    font-size: 20px;
+    /* Tamaño de fuente deseado */
+    margin-right: 20px;
+    /* Espaciado entre los enlaces */
+}
+
+/* Animación al pasar el ratón sobre los nav-links */
+.navbar-nav .nav-link:hover {
+    transition: all 0.3s ease;
+    /* Duración y función de la animación */
+    transform: scale(1.2);
+    /* Aumento de escala al pasar el ratón */
+    color: var(--color-azul);
+}
+
+#logo:hover {
+    transition: all 0.3s ease;
+    /* Duración y función de la animación */
+    transform: scale(1.1);
+    /* Aumento de escala al pasar el ratón */
+}
+
+main {
+    background: linear-gradient(to top, var(--color-azul), var(--color-blanco));
+    margin: 0;
+    margin-top: 3rem;
+    padding: 0;
+}
+
+header {
+    background-color: var(--color-blanco);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.carousel-container {
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-inner .carousel-item img {
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+    /* Centra horizontalmente la imagen */
+}
+
+@media (max-width: 576px) {
+    .carousel-container {
+        max-width: 100%;
+        /* El carrusel ocupa el ancho completo en dispositivos pequeños */
+    }
+}
+
+.card-body .titulo_espectaculo {
+    text-decoration: none;
+}
+
+.card-body .titulo_espectaculo h5{
+    color: var(--color-azul);
+    transition: all 0.3s;
+}
+
+.card-body .titulo_espectaculo h5:hover {
+    transform: scale(1.1);
+    transform-origin: left; /* Establece el punto de origen de la transformación */
+}
+
+.celda{
+    transition: all 0.3s;
+}
+
+.celda:hover{
+    transform: scale(1.01);
+}
