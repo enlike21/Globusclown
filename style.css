@@ -67,6 +67,7 @@ main {
 
 .carousel-inner .carousel-item img {
     max-width: 500px;
+    max-height: 700px;
     height: auto;
     margin: 0 auto;
     /* Centra horizontalmente la imagen */
@@ -74,7 +75,7 @@ main {
 
 @media (max-width: 576px) {
     .carousel-container {
-        max-width: 100%;
+        max-width: 80%;
         /* El carrusel ocupa el ancho completo en dispositivos pequeños */
     }
 }
