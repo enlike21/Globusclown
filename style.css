@@ -27,29 +27,27 @@
 .navbar-nav .nav-link {
     padding: 1rem;
     font-size: 20px;
-    /* Tamaño de fuente deseado */
     margin-right: 20px;
-    /* Espaciado entre los enlaces */
 }
 
 /* Animación al pasar el ratón sobre los nav-links */
 .navbar-nav .nav-link:hover {
     transition: all 0.3s ease;
-    /* Duración y función de la animación */
     transform: scale(1.2);
-    /* Aumento de escala al pasar el ratón */
     color: var(--color-azul);
 }
 
 #logo:hover {
     transition: all 0.3s ease;
-    /* Duración y función de la animación */
     transform: scale(1.1);
-    /* Aumento de escala al pasar el ratón */
+}
+
+header{
+    background-color: var(--color-blanco);
 }
 
 main {
-    background: linear-gradient(to top, var(--color-azul), white);
+    background: linear-gradient(to top, var(--color-azul),var(--color-blanco));
     margin: 0;
     padding: 0;
 }
@@ -91,7 +89,7 @@ main {
 }
 
 .card-body .titulo_espectaculo h5:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transform-origin: left; /* Establece el punto de origen de la transformación */
 }
 
