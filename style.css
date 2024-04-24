@@ -83,6 +83,7 @@ main {
     }
 }
 
+
 .card-body .titulo_espectaculo {
     text-decoration: none;
 }
@@ -155,6 +156,11 @@ main {
 .btn-primary {
     border-radius: 10px; /* Bordes redondeados del botón */
     width: 100%; /* Ancho completo */
+}
+@media (max-width: 1000px){
+    #facebook{
+        max-width: 100px;
+    }
 }
 
 /* REDES SOCIALES STYLE */
