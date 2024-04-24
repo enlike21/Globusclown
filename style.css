@@ -43,11 +43,11 @@
 }
 
 header{
-    background-color: var(--color-blanco);
+    background-color: white;
 }
 
 main {
-    background: linear-gradient(to top, var(--color-azul),var(--color-blanco));
+    background: linear-gradient(to top, var(--color-azul),white);
     margin: 0;
     padding: 0;
 }
