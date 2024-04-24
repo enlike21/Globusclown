@@ -49,15 +49,11 @@
 }
 
 main {
-    background: linear-gradient(to top, var(--color-azul), var(--color-blanco));
+    background: linear-gradient(to top, var(--color-azul), white);
     margin: 0;
-    margin-top: 3rem;
     padding: 0;
 }
 
-header {
-    background-color: var(--color-blanco);
-}
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
