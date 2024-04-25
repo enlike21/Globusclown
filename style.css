@@ -164,9 +164,10 @@ main {
 }
 
 .contacto {
-    background-color: var(--color-azul);
+    background-color: #20acfd;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.274);
     color: var(--color-blanco);
 }
 
@@ -177,6 +178,12 @@ main {
 
 .contacto a:hover {
     text-decoration: underline;
+}
+
+#enviar_correo:hover{
+    transition: all 1s;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.144);
 }
 
 .iframe-container {
