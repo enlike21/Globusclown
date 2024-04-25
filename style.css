@@ -32,13 +32,13 @@
 
 /* Animación al pasar el ratón sobre los nav-links */
 .navbar-nav .nav-link:hover {
-    transition: all 0.3s ease;
+    transition: all 1s ease;
     transform: scale(1.2);
     color: var(--color-azul);
 }
 
 #logo:hover {
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     transform: scale(1.1);
 }
 
@@ -132,6 +132,10 @@ main {
 
 .achievement-description {
     font-size: 1.1rem;
+}
+
+.achievement-description li {
+    margin: 1rem;
 }
 
 /* Contacto Style */
