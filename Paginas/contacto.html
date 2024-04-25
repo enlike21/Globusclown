@@ -51,32 +51,42 @@
         </nav>
     </header>
     <main>
-            <div id="formulario" class="container-md">
-                <div class="row justify-content-center">
-                    <div class="col-md-10">
-                        <div class="formulario-container">
-                            <h2>Contacto</h2>
-                            <form action="" method="POST">
-                                <!-- ME FALTA HACER QUE SE ENVIE EL FORMULARIO 👀👀👀👀 -->
-                                <div class="mb-3">
-                                    <label for="nombre" class="form-label">Nombre</label>
-                                    <input type="text" class="form-control" id="nombre" name="nombre" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">Correo electrónico</label>
-                                    <input type="email" class="form-control" id="email" name="_replyto" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="mensaje" class="form-label">Mensaje</label>
-                                    <textarea class="form-control" id="mensaje" name="mensaje" rows="5"
-                                        required></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Enviar</button>
-                            </form>
+        <section class="container py-5">
+            <h2 style="padding-bottom: 2rem;" class="text-center mb-4">¡Conéctate con nosotros!</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6 mb-4">
+                    <div class="text-center">
+                        <h3>Encuéntranos en redes sociales</h3>
+                        <p>Síguenos en nuestras redes sociales para estar al tanto de nuestras últimas actividades y
+                            eventos.</p>
+                        <a class="btn mb-2 w-25"
+                            href="https://www.facebook.com/globusclown/?locale=es_ES" target="_blank"
+                            role="button"><img class="w-50" src="../IMAGENES/facebook.png" alt="logo Facebook"></a>
+                        <a class="btn mb-2 w-25"
+                            href="https://www.instagram.com/globusclown/?hl=es" target="_blank"
+                            role="button"><img class="w-100" src="../IMAGENES/instagram.png" alt="logo Instagram"></a>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="text-center">
+                        <h3>Visítanos</h3>
+                        <p>¡Te esperamos en nuestro local! Aquí estamos:</p>
+                        <div class="iframe-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.2607653252176!2d-5.919074999999999!3d37.383665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126ef29ef7b7cb%3A0x25a7b4aafe259f0c!2sGlobusClown!5e0!3m2!1ses!2ses!4v1714061984520!5m2!1ses!2ses"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 mx-auto">
+                    <div class="text-center contacto">
+                        <h3>Contáctanos</h3>
+                        <p>Envíanos un correo electrónico para obtener más información:</p>
+                        <button class="btn btn-primary"><a href="mailto:pablo@globusclown.com" target="_blank">¡Envíanos un correo!</a></button>
+                    </div>
+                </div>
             </div>
+        </section>
     </main>
     <footer class="bg-dark text-light text-center py-4">
         <p>&copy; 2024 Globusclown. Todos los derechos reservados.</p>

@@ -6,14 +6,16 @@
 
 .btn-instagram:hover {
     color: white;
-    transform: scale(1.05);
+    transition: all 0.5s ease;
+    transform: scale(1.1);
     box-shadow: 3px 3px 10px #E1306C;
 }
 
 #facebook:hover {
     background-color: var(--color-azul);
     color: white;
-    transform: scale(1.05);
+    transition: all 0.5s ease;
+    transform: scale(1.1);
     box-shadow: 3px 3px 10px var(--color-azul);
 }
 
@@ -140,31 +142,56 @@ main {
 
 /* Contacto Style */
 
-.formulario-container {
-    margin: 5rem;
-    background-color: #fff; /* Color de fondo del contenedor */
-    border-radius: 20px; /* Bordes redondeados */
-    padding: 30px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.349); /* Sombra */
+
+.btn-instagram {
+    background-color: #E1306C;
+    border-color: #E1306C;
 }
 
-.formulario-container h2 {
-    text-align: center; /* Centrar el título */
-    margin-bottom: 30px;
+.btn-instagram:hover {
+    background-color: #c81d57;
+    border-color: #c81d57;
 }
 
-.form-control {
-    border-radius: 10px; /* Bordes redondeados de los campos de entrada */
+.btn-facebook {
+    background-color: #1877f2;
+    border-color: #1877f2;
 }
 
-.btn-primary {
-    border-radius: 10px; /* Bordes redondeados del botón */
-    width: 100%; /* Ancho completo */
+.btn-facebook:hover {
+    background-color: #115599;
+    border-color: #115599;
 }
-@media (max-width: 1000px){
-    #facebook{
-        max-width: 100px;
-    }
+
+.contacto {
+    background-color: var(--color-azul);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--color-blanco);
+}
+
+.contacto a {
+    color: var(--color-blanco);
+    text-decoration: none;
+}
+
+.contacto a:hover {
+    text-decoration: underline;
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    height: 0;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* REDES SOCIALES STYLE */
