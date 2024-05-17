@@ -142,63 +142,107 @@ main {
 
 /* Contacto Style */
 
-
-.btn-instagram {
-    background-color: #E1306C;
-    border-color: #E1306C;
+.contact-section {
+    padding: 60px 0;
 }
 
-.btn-instagram:hover {
-    background-color: #c81d57;
-    border-color: #c81d57;
+.contact-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.btn-facebook {
-    background-color: #1877f2;
-    border-color: #1877f2;
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.btn-facebook:hover {
-    background-color: #115599;
-    border-color: #115599;
+.contact-card h3 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
 }
 
-.contacto {
-    background-color: #20acfd;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.274);
-    color: var(--color-blanco);
+.contact-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
 }
 
-.contacto a {
-    color: var(--color-blanco);
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-social img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.btn-social:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.btn-phone {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
     text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-block;
+    margin-top: 10px;
 }
 
-.contacto a:hover {
-    text-decoration: underline;
-}
-
-#enviar_correo:hover{
-    transition: all 1s;
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.144);
+.btn-phone:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
 }
 
 .iframe-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
-    height: 0;
+    border: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.iframe-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #555;
+    transition: all 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    scale: 1.1;
+    color: #007bff;
+}
+
+.navbar .btn-social-nav {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    transition: transform 0.3s;
+}
+
+.navbar .btn-social-nav img {
     width: 100%;
     height: 100%;
+    border-radius: 50%;
+}
+
+.navbar .btn-social-nav:hover {
+    transform: translateY(-2px);
 }
 
 /* REDES SOCIALES STYLE */
@@ -211,4 +255,16 @@ main {
     background-color: #fff; /* Color de fondo */
     border-radius: 20px; /* Bordes redondeados */
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* QUE HACEMOS STYLE */
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
