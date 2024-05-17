@@ -11,10 +11,6 @@
     box-shadow: 3px 3px 10px #E1306C;
 }
 
-nav{
-    background-color: white;
-}
-
 #facebook:hover {
     background-color: var(--color-azul);
     color: white;
