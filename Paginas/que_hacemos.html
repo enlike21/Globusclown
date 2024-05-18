@@ -13,7 +13,7 @@
         .image-container {
             position: relative;
             width: 100%;
-            height: 200px;
+            height: 500px;
             overflow: hidden;
             border-radius: 8px;
         }
@@ -61,6 +61,35 @@
             font-weight: bold;
             color: #333;
         }
+
+        .modal-lg {
+            max-width: 80%;
+        }
+
+        @media (max-width: 576px) {
+            .modal-lg {
+                max-width: 95%;
+            }
+        }
+
+        .card {
+            width: 100%;
+            max-width: 350px;
+        }
+
+        .modal-body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            background: linear-gradient(to top, var(--color-azul), white);
+        }
+
+        .modal-dialog-centered {
+            display: flex;
+            align-items: center;
+            min-height: calc(100% - 1rem);
+        }
     </style>
 </head>
 
@@ -86,7 +115,7 @@
                             <a class="nav-link" href="quienes_somos.html">Quiénes somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="que_hacemos.html">Que hacemos</a>
+                            <a class="nav-link" href="que_hacemos.html">Qué hacemos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contacto.html">Contacto</a>
@@ -130,7 +159,7 @@
                 </div>
                 <div class="col-md-4 celda">
                     <div class="card mb-4">
-                        <a href="Paginas/que_hacemos.html" class="stretched-link text-decoration-none">
+                        <a href="pasacalles.html" class="stretched-link text-decoration-none">
                             <div class="image-container">
                                 <img src="../IMAGENES/pasacalles con globos/mariposa bormujos.jpg" class="active" alt="...">
                                 <img src="../IMAGENES/pasacalles con globos/gusano 19 (38).jpg" alt="...">
@@ -144,7 +173,7 @@
                 </div>
                 <div class="col-md-4 celda">
                     <div class="card mb-4">
-                        <a href="Paginas/que_hacemos.html" class="stretched-link text-decoration-none">
+                        <a href="decoracion.html" class="stretched-link text-decoration-none">
                             <div class="image-container">
                                 <img src="../IMAGENES/globos con arte/china globos 1 (41).jpg" class="active" alt="...">
                                 <img src="../IMAGENES/globos con arte/gallina (22).jpg" alt="...">
@@ -162,7 +191,7 @@
         <!-- Modal Espectáculos -->
         <div class="modal fade" id="espectaculosModal" tabindex="-1" aria-labelledby="espectaculosModalLabel"
             aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="espectaculosModalLabel">Espectáculos</h5>
@@ -173,7 +202,7 @@
                             <div class="col-md-4">
                                 <!-- Card Burbruja -->
                                 <div class="card mb-4">
-                                    <img src="../IMAGENES/burbruja.jpg" class="card-img-top" alt="Burbruja">
+                                    <img src="../IMAGENES/burbruja/germanfotografo (263 de 456).jpg" class="card-img-top" alt="Burbruja">
                                     <div class="card-body">
                                         <h5 class="card-title">Burbruja</h5>
                                         <p class="card-text">Haz clic para más detalles sobre Burbruja.</p>
@@ -184,7 +213,7 @@
                             <div class="col-md-4">
                                 <!-- Card Globología -->
                                 <div class="card mb-4">
-                                    <img src="../IMAGENES/globologia.jpg" class="card-img-top" alt="Globología">
+                                    <img src="../IMAGENES/globología/globo grande rociana.jpg" class="card-img-top" alt="Globología">
                                     <div class="card-body">
                                         <h5 class="card-title">Globología</h5>
                                         <p class="card-text">Haz clic para más detalles sobre Globología.</p>
@@ -192,19 +221,21 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card mb-4">
-                                <img src="../IMAGENES/pomphang.jpg" class="card-img-top" alt="Pomphang">
-                                <div class="card-body">
-                                    <h5 class="card-title">Pomphang</h5>
-                                    <p class="card-text">Haz clic para más detalles sobre Pomphang.</p>
-                                    <a href="pomphang.html" class="btn btn-primary">Más información</a>
+                            <div class="col-md-4">
+                                <!-- Card Pomphang -->
+                                <div class="card mb-4">
+                                    <img src="../IMAGENES/pomphang/pomphang marilo (13).jpg" class="card-img-top" alt="Pomphang">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pomphang</h5>
+                                        <p class="card-text">Haz clic para más detalles sobre Pomphang.</p>
+                                        <a href="pomphang.html" class="btn btn-primary">Más información</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </main>
     <footer class="bg-dark text-light text-center py-4">

@@ -25,18 +25,27 @@
     --color-negro: #080809;
 }
 
-/* Aumentar el tamaño de los nav-links */
+
 .navbar-nav .nav-link {
     padding: 1rem;
     font-size: 20px;
     margin-right: 20px;
 }
 
-/* Animación al pasar el ratón sobre los nav-links */
 .navbar-nav .nav-link:hover {
     transition: all 1s ease;
     transform: scale(1.2);
     color: var(--color-azul);
+}
+
+/* Desactivar escala en el navbar en dispositivos móviles */
+@media (max-width: 991.98px) {
+    .navbar-nav .nav-link {
+        transition: none !important;
+        /* Desactiva la transición */
+        transform: none !important;
+        /* Desactiva la transformación */
+    }
 }
 
 #logo:hover {
@@ -44,12 +53,12 @@
     transform: scale(1.1);
 }
 
-header{
+header {
     background-color: white;
 }
 
 main {
-    background: linear-gradient(to top, var(--color-azul),white);
+    background: linear-gradient(to top, var(--color-azul), white);
     margin: 0;
     padding: 0;
 }
@@ -80,7 +89,8 @@ main {
         max-width: 100%;
         /* El carrusel ocupa el ancho completo en dispositivos pequeños */
     }
-    #quienessomos{
+
+    #quienessomos {
         width: 95%;
     }
 }
@@ -90,21 +100,22 @@ main {
     text-decoration: none;
 }
 
-.card-body .titulo_espectaculo h5{
+.card-body .titulo_espectaculo h5 {
     color: var(--color-azul);
     transition: all 0.3s;
 }
 
 .card-body .titulo_espectaculo h5:hover {
     transform: scale(1.05);
-    transform-origin: left; /* Establece el punto de origen de la transformación */
+    transform-origin: left;
+    /* Establece el punto de origen de la transformación */
 }
 
-.celda{
+.celda {
     transition: all 0.3s;
 }
 
-.celda:hover{
+.celda:hover {
     transform: scale(1.01);
 }
 
@@ -249,12 +260,17 @@ main {
 
 
 .redes-container {
-    max-width: 800px; /* Ancho máximo del contenedor */
-    margin: auto; /* Centra el contenedor */
+    max-width: 800px;
+    /* Ancho máximo del contenedor */
+    margin: auto;
+    /* Centra el contenedor */
     padding: 20px;
-    background-color: #fff; /* Color de fondo */
-    border-radius: 20px; /* Bordes redondeados */
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: #fff;
+    /* Color de fondo */
+    border-radius: 20px;
+    /* Bordes redondeados */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    /* Sombra */
 }
 
 /* QUE HACEMOS STYLE */
