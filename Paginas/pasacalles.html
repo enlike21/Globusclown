@@ -2,93 +2,28 @@
 <html lang="es">
 
 <head>
-    <title>GlobusClown - Qué hacemos</title>
+    <title>GlobusClown - Pasacalles</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="../style.css">
     <style>
-        .image-container {
-            position: relative;
-            width: 100%;
-            height: 500px;
-            overflow: hidden;
-            border-radius: 8px;
+        .content-container {
+            padding: 60px 0;
         }
 
-        .image-container img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            opacity: 0;
-            transition: opacity 1s;
-        }
-
-        .image-container img.active {
-            opacity: 1;
-        }
-
-        .card-title {
-            font-size: 1.25rem;
-            font-weight: bold;
-            color: #333;
-        }
-
-        .card {
-            border: none;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        }
-
-        .celda {
-            margin-bottom: 30px;
-        }
-
-        .container h2 {
-            margin-bottom: 40px;
+        .content-container h2 {
             font-size: 2.5rem;
             font-weight: bold;
             color: #333;
+            margin-bottom: 40px;
         }
 
-        .modal-lg {
-            max-width: 80%;
-        }
-
-        @media (max-width: 576px) {
-            .modal-lg {
-                max-width: 95%;
-            }
-        }
-
-        .card {
-            width: 100%;
-            max-width: 350px;
-        }
-
-        .modal-body {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            background: linear-gradient(to top, var(--color-azul), white);
-        }
-
-        .modal-dialog-centered {
-            display: flex;
-            align-items: center;
-            min-height: calc(100% - 1rem);
+        .content-container p {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.6;
         }
     </style>
 </head>
@@ -139,7 +74,73 @@
         </nav>
     </header>
     <main>
-
+        <div class="container content-container">
+            <h2 class="text-center">Pasacalles con Globos</h2>
+            <p class="text-center mb-5 text-black mt-5">Disfruta de nuestros maravillosos pasacalles con globos, llenos de color,
+                alegría y diversión. Perfectos para cualquier evento o celebración.</p>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="#" style="display: inline-block; width: 100%; height: 100%;">
+                            <img src="../IMAGENES/pasacalles con globos/albaida reyes 19 (1).jpg" class="d-block rounded"
+                                alt="Recetas de burbruja">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" style="display: inline-block; width: 100%; height: 100%;">
+                            <img src="../IMAGENES/pasacalles con globos/albaida reyes 22 (10).jpg" class="d-block rounded"
+                                alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" style="display: inline-block; width: 100%; height: 100%;">
+                            <img src="../IMAGENES/pasacalles con globos/alzira reyes 2017 (14).jpg" class="d-block rounded"
+                                alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" style="display: inline-block; width: 100%; height: 100%;">
+                            <img src="../IMAGENES/pasacalles con globos/alzira reyes 2020 (26).jpg" class="d-block rounded"
+                                alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" style="display: inline-block; width: 100%; height: 100%;">
+                            <img src="../IMAGENES/pasacalles con globos/bormujos reyes 2018 (5).jpg" class="d-block rounded"
+                                alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" style="display: inline-block; width: 100%; height: 100%;">
+                            <img src="../IMAGENES/pasacalles con globos/carnaval bormujos 19 pasacalles (3).jpg" class="d-block rounded"
+                                alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" style="display: inline-block; width: 100%; height: 100%;">
+                            <img src="../IMAGENES/pasacalles con globos/IMG_3438.JPG" class="d-block rounded"
+                                alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" style="display: inline-block; width: 100%; height: 100%;">
+                            <img src="../IMAGENES/pasacalles con globos/osos morgan (19).jpg" class="d-block rounded"
+                                alt="...">
+                        </a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
     </main>
     <footer class="bg-dark text-light text-center py-4">
         <p>&copy; 2024 Globusclown. Todos los derechos reservados.</p>
@@ -148,27 +149,11 @@
         </p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQ+zqX6gSbd85u4mG4QzX+"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const imageContainers = document.querySelectorAll('.image-container');
-
-            imageContainers.forEach(container => {
-                const images = container.querySelectorAll('img');
-                let currentIndex = 0;
-
-                setInterval(() => {
-                    images[currentIndex].classList.remove('active');
-                    currentIndex = (currentIndex + 1) % images.length;
-                    images[currentIndex].classList.add('active');
-                }, 3000); // Cambiar cada 3 segundos
-            });
-        });
-    </script>
 </body>
 
 </html>

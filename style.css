@@ -78,7 +78,7 @@ main {
 
 .carousel-inner .carousel-item img {
     max-width: 500px;
-    max-height: 700px;
+    max-height: 650px;
     height: auto;
     margin: 0 auto;
     /* Centra horizontalmente la imagen */
@@ -269,7 +269,7 @@ main {
     /* Color de fondo */
     border-radius: 20px;
     /* Bordes redondeados */
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     /* Sombra */
 }
 
