@@ -61,6 +61,36 @@
             font-weight: bold;
             color: #333;
         }
+
+        .modal-lg {
+            max-width: 80%;
+        }
+
+        @media (max-width: 576px) {
+            .modal-lg {
+                max-width: 95%;
+            }
+        }
+
+        .card {
+            width: 100%;
+            max-width: 350px;
+        }
+
+        .modal-body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            background: linear-gradient(to top, var(--color-azul), white);
+        }
+
+        .modal-dialog-centered {
+            display: flex;
+            align-items: center;
+            min-height: calc(100% - 1rem);
+        }
+
     </style>
 </head>
 
@@ -149,7 +179,8 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 celda">
-                        <a href="Paginas/que_hacemos.html" class="stretched-link text-decoration-none">
+                        <a href="Paginas/que_hacemos.html" class="stretched-link text-decoration-none" data-bs-toggle="modal"
+                        data-bs-target="#espectaculosModal">
                             <div class="image-container">
                                 <img src="IMAGENES/burbruja/germanfotografo (263 de 456).jpg" class="active" alt="...">
                                 <img src="IMAGENES/pomphang/pomphang marilo (13).jpg" alt="...">
@@ -163,7 +194,7 @@
                 </div>
                 <div class="col-md-4 celda">
                     <div class="card mb-4">
-                        <a href="Paginas/que_hacemos.html" class="stretched-link text-decoration-none">
+                        <a href="Paginas/pasacalles.html" class="stretched-link text-decoration-none">
                             <div class="image-container">
                                 <img src="IMAGENES/pasacalles con globos/mariposa bormujos.jpg" class="active"
                                     alt="...">
@@ -178,7 +209,7 @@
                 </div>
                 <div class="col-md-4 celda">
                     <div class="card mb-4">
-                        <a href="Paginas/que_hacemos.html" class="stretched-link text-decoration-none">
+                        <a href="Paginas/decoracion.html" class="stretched-link text-decoration-none">
                             <div class="image-container">
                                 <img src="IMAGENES/globos con arte/china globos 1 (41).jpg" class="active" alt="...">
                                 <img src="IMAGENES/globos con arte/gallina (22).jpg" alt="...">
@@ -192,6 +223,69 @@
                 </div>
             </div>
         </div>
+
+                <!-- Modal Espectáculos -->
+                <div class="modal fade" id="espectaculosModal" tabindex="-1" aria-labelledby="espectaculosModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="espectaculosModalLabel">Espectáculos</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4">
+                                    <!-- Card Burbruja -->
+                                    <div class="card mb-4">
+                                        <div class="image-container">
+                                            <img src="../IMAGENES/burbruja/germanfotografo (283 de 456).jpg" class="active"
+                                                alt="...">
+                                            <img src="../IMAGENES/burbruja/Las recetas de burbruja (4).jpg" alt="...">
+                                            <img src="../IMAGENES/burbruja/Las recetas de burbruja (3).jpg" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Burbruja</h5>
+                                            <p class="card-text">Haz clic para más detalles sobre Burbruja.</p>
+                                            <a href="burbruja.html" class="btn btn-primary">Más información</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <!-- Card Globología -->
+                                    <div class="card mb-4">
+                                        <div class="image-container">
+                                            <img src="../IMAGENES/globología/globología (2).jpg" class="active" alt="...">
+                                            <img src="../IMAGENES/globología/IMG_4674.jpg" alt="...">
+                                            <img src="../IMAGENES/globología/globo grande rociana.jpg" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Globología</h5>
+                                            <p class="card-text">Haz clic para más detalles sobre Globología.</p>
+                                            <a href="burbruja.html" class="btn btn-primary">Más información</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <!-- Card Pomphang -->
+                                    <div class="card mb-4">
+                                        <div class="image-container">
+                                            <img src="../IMAGENES/pomphang/ (2).jpg" class="active" alt="...">
+                                            <img src="../IMAGENES/globología/IMG_4674.jpg" alt="...">
+                                            <img src="../IMAGENES/globología/globo grande rociana.jpg" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Pomphang</h5>
+                                            <p class="card-text">Haz clic para más detalles sobre Pomphang.</p>
+                                            <a href="burbruja.html" class="btn btn-primary">Más información</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
     </main>
     <footer class="bg-dark text-light text-center py-4">
