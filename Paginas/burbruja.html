@@ -48,15 +48,12 @@
             margin: 30px 0;
         }
 
-        footer {
-            background: #343a40;
-            color: #fff;
-            padding: 20px 0;
+        @media (max-width: 576px) {
+            iframe {
+            width:90%;
+        }
         }
 
-        footer p {
-            margin: 0;
-        }
     </style>
 </head>
 
@@ -108,16 +105,21 @@
     <main>
         <div class="container content-container">
             <h2 class="text-center">Las Recetas de Burbruja</h2>
-            <p class="text-center mb-5 text-black">Andrés Pumadera, un experto cocinero, está realizando la grabación de un
+            <p class="text-center mb-5 text-black">Andrés Pumadera, un experto cocinero, está realizando la grabación de
+                un
                 programa de televisión donde cada día realiza una dieta con libros de cocina de otros grandes cocineros,
                 hoy toca Burbruja una cocinera muy especial, por los ingredientes y lo sorprendentes de sus mejores
                 platos. Un mundo de ilusión y jabón que volará delante de todos.</p>
             <div class="video-container text-center">
-                <iframe class="rounded m-1" width="560" height="315" src="https://www.youtube.com/embed/SfJhp7k8oFc?si=OnL6gSWj7bKMa6ZS"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item rounded m-1" width="560" height="315"
+                        src="https://www.youtube.com/embed/SfJhp7k8oFc?si=OnL6gSWj7bKMa6ZS" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
             </div>
+
             <div class="row">
                 <div class="col-md-4">
                     <div class="image-container m-1">
