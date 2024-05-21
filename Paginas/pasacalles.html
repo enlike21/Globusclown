@@ -25,6 +25,10 @@
             color: #555;
             line-height: 1.6;
         }
+
+        .carousel-item img {
+            cursor: pointer;
+        }
     </style>
 </head>
 
@@ -77,57 +81,43 @@
         <div class="container content-container">
             <h2 class="text-center">Pasacalles con Globos</h2>
             <p class="text-center mb-5 text-black mt-5">Desde una réplica en globos de sus personajes preferidos,
-                a una carroza gigante podemos sorprenderte con nuestros diseños. <br>Nuestras creaciones se adaptan a sus necesidades, haciendo del
+                a una carroza gigante podemos sorprenderte con nuestros diseños. <br>Nuestras creaciones se adaptan a
+                sus necesidades, haciendo del
                 globo un complemento perfecto para cualquier tipo de evento.</p>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <a href="#" style="display: inline-block; width: 100%; height: 100%;">
-                            <img src="../IMAGENES/pasacalles con globos/albaida reyes 19 (1).jpg" class="d-block rounded"
-                                alt="Recetas de burbruja">
-                        </a>
+                        <img src="../IMAGENES/pasacalles con globos/albaida reyes 19 (1).jpg"
+                            class="d-block rounded w-100" alt="Recetas de burbruja" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
                     </div>
                     <div class="carousel-item">
-                        <a href="#" style="display: inline-block; width: 100%; height: 100%;">
-                            <img src="../IMAGENES/pasacalles con globos/albaida reyes 22 (10).jpg" class="d-block rounded"
-                                alt="...">
-                        </a>
+                        <img src="../IMAGENES/pasacalles con globos/albaida reyes 22 (10).jpg"
+                            class="d-block rounded w-100" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal">
                     </div>
                     <div class="carousel-item">
-                        <a href="#" style="display: inline-block; width: 100%; height: 100%;">
-                            <img src="../IMAGENES/pasacalles con globos/alzira reyes 2017 (14).jpg" class="d-block rounded"
-                                alt="...">
-                        </a>
+                        <img src="../IMAGENES/pasacalles con globos/alzira reyes 2017 (14).jpg"
+                            class="d-block rounded w-100" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal">
                     </div>
                     <div class="carousel-item">
-                        <a href="#" style="display: inline-block; width: 100%; height: 100%;">
-                            <img src="../IMAGENES/pasacalles con globos/alzira reyes 2020 (26).jpg" class="d-block rounded"
-                                alt="...">
-                        </a>
+                        <img src="../IMAGENES/pasacalles con globos/alzira reyes 2020 (26).jpg"
+                            class="d-block rounded w-100" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal">
                     </div>
                     <div class="carousel-item">
-                        <a href="#" style="display: inline-block; width: 100%; height: 100%;">
-                            <img src="../IMAGENES/pasacalles con globos/bormujos reyes 2018 (5).jpg" class="d-block rounded"
-                                alt="...">
-                        </a>
+                        <img src="../IMAGENES/pasacalles con globos/bormujos reyes 2018 (5).jpg"
+                            class="d-block rounded w-100" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal">
                     </div>
                     <div class="carousel-item">
-                        <a href="#" style="display: inline-block; width: 100%; height: 100%;">
-                            <img src="../IMAGENES/pasacalles con globos/carnaval bormujos 19 pasacalles (3).jpg" class="d-block rounded"
-                                alt="...">
-                        </a>
+                        <img src="../IMAGENES/pasacalles con globos/carnaval bormujos 19 pasacalles (3).jpg"
+                            class="d-block rounded w-100" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal">
                     </div>
                     <div class="carousel-item">
-                        <a href="#" style="display: inline-block; width: 100%; height: 100%;">
-                            <img src="../IMAGENES/pasacalles con globos/IMG_3438.JPG" class="d-block rounded"
-                                alt="...">
-                        </a>
+                        <img src="../IMAGENES/pasacalles con globos/IMG_3438.JPG" class="d-block rounded w-100"
+                            alt="..." data-bs-toggle="modal" data-bs-target="#imageModal">
                     </div>
                     <div class="carousel-item">
-                        <a href="#" style="display: inline-block; width: 100%; height: 100%;">
-                            <img src="../IMAGENES/pasacalles con globos/osos morgan (19).jpg" class="d-block rounded"
-                                alt="...">
-                        </a>
+                        <img src="../IMAGENES/pasacalles con globos/osos morgan (19).jpg" class="d-block rounded w-100"
+                            alt="..." data-bs-toggle="modal" data-bs-target="#imageModal">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -149,12 +139,66 @@
             ACA: Asociación de Circo de Andalucía.
         </p>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Pasacalles</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="modalCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#modalCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#modalCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const carouselImages = document.querySelectorAll('#carouselExampleControls .carousel-item img');
+            const modalCarouselInner = document.querySelector('#modalCarousel .carousel-inner');
+
+            carouselImages.forEach((img, index) => {
+                img.addEventListener('click', () => {
+                    modalCarouselInner.innerHTML = '';
+                    carouselImages.forEach((image, idx) => {
+                        const carouselItem = document.createElement('div');
+                        carouselItem.classList.add('carousel-item');
+                        if (index === idx) {
+                            carouselItem.classList.add('active');
+                        }
+                        const imgElement = document.createElement('img');
+                        imgElement.src = image.src;
+                        imgElement.classList.add('d-block', 'w-100');
+                        carouselItem.appendChild(imgElement);
+                        modalCarouselInner.appendChild(carouselItem);
+                    });
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
