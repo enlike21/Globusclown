@@ -256,8 +256,387 @@ main {
     transform: translateY(-2px);
 }
 
-/* REDES SOCIALES STYLE */
+/* POMPHANG */
 
+.pomphang .content-container {
+    padding: 60px 0;
+}
+
+.pomphang .content-container h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.pomphang .content-container p {
+    font-size: 1.3rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.pomphang .thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.pomphang .thumbnail {
+    width: calc(25% - 10px);
+    cursor: pointer;
+}
+
+.pomphang .thumbnail img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pomphang .thumbnail img:hover {
+    transform: scale(1.1);
+}
+
+.pomphang .modal-dialog {
+    max-width: 50vw;
+    /* Aumenta el tamaño máximo del modal */
+    margin: 1.75rem auto;
+}
+
+.pomphang #modalCarousel .carousel-inner .carousel-item img {
+    max-height: 90vh;
+    /* Aumenta la altura máxima de las imágenes en el modal */
+    max-width: 100%;
+    /* Ajusta el ancho máximo de las imágenes */
+    margin: 0 auto;
+    /* Centra las imágenes horizontalmente */
+}
+
+
+
+/* Estilos para la vista móvil */
+@media (max-width: 768px) {
+    .pomphang .desktop-only {
+        display: none;
+    }
+}
+
+/* Estilos para la vista de escritorio */
+@media (min-width: 769px) {
+    .pomphang .mobile-only {
+        display: none;
+    }
+}
+
+.pomphang .side-image {
+    max-width: 70%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    margin-top: -40px;
+    margin-left: 2rem;
+}
+
+/* DECORACION */
+
+.decoracion .content-container {
+    padding: 60px 0;
+}
+
+.decoracion .content-container h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.decoracion .content-container p {
+    font-size: 1.3rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.decoracion .thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.decoracion .thumbnail {
+    width: calc(25% - 10px);
+    cursor: pointer;
+}
+
+.decoracion .thumbnail img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.decoracion .thumbnail img:hover {
+    transform: scale(1.1);
+}
+
+.decoracion .modal-dialog {
+    max-width: 50vw;
+    /* Aumenta el tamaño máximo del modal */
+    margin: 1.75rem auto;
+}
+
+.decoracion #modalCarousel .carousel-inner .carousel-item img {
+    max-height: 90vh;
+    /* Aumenta la altura máxima de las imágenes en el modal */
+    max-width: 100%;
+    /* Ajusta el ancho máximo de las imágenes */
+    margin: 0 auto;
+    /* Centra las imágenes horizontalmente */
+}
+
+
+
+/* Estilos para la vista móvil */
+@media (max-width: 768px) {
+    .decoracion .desktop-only {
+        display: none;
+    }
+}
+
+/* Estilos para la vista de escritorio */
+@media (min-width: 769px) {
+    .decoracion .mobile-only {
+        display: none;
+    }
+}
+
+/* BURBRUJA */
+
+.burbruja .content-container {
+    padding: 60px 0;
+}
+
+.burbruja .content-container h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.burbruja .content-container p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.burbruja .thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.burbruja .thumbnail {
+    width: calc(25% - 10px);
+    cursor: pointer;
+}
+
+.burbruja .thumbnail img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.burbruja .thumbnail img:hover {
+    transform: scale(1.1);
+}
+
+.burbruja .modal-dialog {
+    max-width: 50vw;
+    /* Aumenta el tamaño máximo del modal */
+    margin: 1.75rem auto;
+}
+
+.burbruja #modalCarousel .carousel-inner .carousel-item img {
+    max-height: 90vh;
+    /* Aumenta la altura máxima de las imágenes en el modal */
+    max-width: 100%;
+    /* Ajusta el ancho máximo de las imágenes */
+    margin: 0 auto;
+    /* Centra las imágenes horizontalmente */
+}
+
+.burbruja .video-container {
+    margin: 30px 0;
+}
+
+@media (max-width: 576px) {
+    .burbruja iframe {
+        width: 90%;
+    }
+}
+
+/* Estilos para la vista móvil */
+@media (max-width: 768px) {
+    .burbruja .desktop-only {
+        display: none;
+    }
+}
+
+/* Estilos para la vista de escritorio */
+@media (min-width: 769px) {
+    .burbruja .mobile-only {
+        display: none;
+    }
+}
+
+/* PASACALLES */
+
+.pasacalles .content-container {
+    padding: 60px 0;
+}
+
+.pasacalles .content-container h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.pasacalles .content-container p {
+    font-size: 1.3rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.pasacalles .thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.pasacalles .thumbnail {
+    width: calc(25% - 10px);
+    cursor: pointer;
+}
+
+.pasacalles .thumbnail img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pasacalles .thumbnail img:hover {
+    transform: scale(1.1);
+}
+
+.pasacalles .modal-dialog {
+    max-width: 50vw;
+    /* Aumenta el tamaño máximo del modal */
+    margin: 1.75rem auto;
+}
+
+.pasacalles #modalCarousel .carousel-inner .carousel-item img {
+    max-height: 90vh;
+    /* Aumenta la altura máxima de las imágenes en el modal */
+    max-width: 60%;
+    /* Ajusta el ancho máximo de las imágenes */
+    margin: 0 auto;
+    /* Centra las imágenes horizontalmente */
+}
+
+
+
+/* Estilos para la vista móvil */
+@media (max-width: 768px) {
+    .pasacalles .desktop-only {
+        display: none;
+    }
+}
+
+/* Estilos para la vista de escritorio */
+@media (min-width: 769px) {
+    .pasacalles .mobile-only {
+        display: none;
+    }
+}
+
+/* GLOBOLOGIA */
+
+.globologia .content-container {
+    padding: 60px 0;
+}
+
+.globologia .content-container h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.globologia .content-container p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.globologia .thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.globologia .thumbnail {
+    width: calc(25% - 10px);
+    cursor: pointer;
+}
+
+.globologia .thumbnail img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.globologia .thumbnail img:hover {
+    transform: scale(1.1);
+}
+
+.globologia .modal-dialog {
+    max-width: 50vw;
+    /* Aumenta el tamaño máximo del modal */
+    margin: 1.75rem auto;
+}
+
+.globologia #modalCarousel .carousel-inner .carousel-item img {
+    max-height: 90vh;
+    /* Aumenta la altura máxima de las imágenes en el modal */
+    max-width: 100%;
+    /* Ajusta el ancho máximo de las imágenes */
+    margin: 0 auto;
+    /* Centra las imágenes horizontalmente */
+}
+
+.globologia .video-container {
+    margin: 30px 0;
+}
+
+@media (max-width: 576px) {
+    .globologia iframe {
+        width: 90%;
+    }
+}
+
+/* Estilos para la vista móvil */
+@media (max-width: 768px) {
+    .globologia .desktop-only {
+        display: none;
+    }
+}
+
+/* Estilos para la vista de escritorio */
+@media (min-width: 769px) {
+    .globologia .mobile-only {
+        display: none;
+    }
+}
+
+/* REDES SOCIALES STYLE */
 
 .redes-container {
     max-width: 1000px;
@@ -273,6 +652,41 @@ main {
     /* Sombra */
 }
 
+.page-redes-sociales h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.page-redes-sociales .iframe-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
+    overflow: hidden;
+}
+
+.page-redes-sociales .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+@media (max-width: 576px) {
+    .page-redes-sociales h2 {
+        font-size: 2rem;
+    }
+
+    .page-redes-sociales .iframe-container {
+        padding-bottom: 100%;
+        /* Adjust the padding-bottom for a more square-like aspect ratio on mobile */
+    }
+}
 
 
 /* QUE HACEMOS STYLE */
@@ -285,4 +699,85 @@ main {
 
 .card:hover {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.page-que-hacemos .image-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.page-que-hacemos .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.page-que-hacemos .image-container img.active {
+    opacity: 1;
+}
+
+.page-que-hacemos .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.page-que-hacemos .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.page-que-hacemos .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.page-que-hacemos .celda {
+    margin-bottom: 30px;
+}
+
+.page-que-hacemos .container h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.page-que-hacemos .modal-lg {
+    max-width: 80%;
+}
+
+@media (max-width: 576px) {
+    .page-que-hacemos .modal-lg {
+        max-width: 95%;
+    }
+}
+
+.page-que-hacemos .card {
+    width: 100%;
+    max-width: 350px;
+}
+
+.page-que-hacemos .modal-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background: linear-gradient(to top, var(--color-azul), white);
+}
+
+.page-que-hacemos .modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 1rem);
 }

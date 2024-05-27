@@ -9,40 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="../style.css">
-    <style>
-        h2 {
-            font-size: 2.5rem;
-            font-weight: bold;
-            color: #333;
-            margin-bottom: 40px;
-        }
-
-        .iframe-container {
-            position: relative;
-            width: 100%;
-            height: 0;
-            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-            overflow: hidden;
-        }
-
-        .responsive-iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-
-        @media (max-width: 576px) {
-            h2 {
-                font-size: 2rem;
-            }
-        }
-    </style>
 </head>
 
-<body>
+<body class="page-redes-sociales">
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
@@ -91,9 +60,9 @@
         <div class="container mt-5">
             <div class="redes-container">
                 <h2 class="text-center mb-4">Feed de Instagram</h2>
-                <div class="iframe-container">
+                <div class="iframe-container" id="instagram">
                     <iframe src="https://snapwidget.com/embed/1068167" class="responsive-iframe" allowtransparency="true"
-                        frameborder="0" scrolling="no" title="Posts from Instagram"></iframe>
+                    frameborder="0" scrolling="no" title="Posts from Instagram"></iframe>
                 </div>
             </div>
         </div>
